@@ -1,0 +1,112 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    nav {
+      background: #1e1e2f;
+      color: white;
+      padding: 0.8rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .menu{
+        margin-top: 0.3rem;
+    }
+    nav .menu a {
+      color: white;
+      margin: 0rem 1rem;
+      text-decoration: none;
+    }
+    header {
+      position: relative;
+      height: 60vh;
+      overflow: hidden;
+    }
+    header video {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+    }
+    header .text {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .container {
+      padding: 2rem;
+    }
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+    .video-grid video {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    #work p{
+        margin-bottom: 1.5rem;
+    }
+    .one{
+        height: 10.2rem;
+    }
+    .two{
+        height: 10.2rem;
+    }
+    .three{
+        height: 10.2rem;
+    }
+    .four{
+        height: 10.2rem;
+    }
+    .five{
+        height: 10.2rem;
+    }
+    .six{
+        height: 10.2rem;
+    }
+    u{
+        font-weight:500;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      header .text h1 {
+        font-size: 1.5rem;
+      }
+    }
+ 
